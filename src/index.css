@@ -5,21 +5,21 @@
 .btn {
   background: linear-gradient(
     92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
+    #00c6ff 21.43%,  /* xanh dương nhạt */
+    #0072ff 50.63%,  /* xanh dương đậm */
+    #00ff9d 100%,    /* xanh lá nhạt */
+    #00c6ff 117.04%  /* quay lại xanh dương nhạt */
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  box-shadow: 0px 4.42184px 107.23px rgba(0, 198, 255, 0.51);
 }
 
 .btn:hover {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #00ff9d 21.43%, /* xanh lá nhạt */
+    #0072ff 50.63%, /* xanh dương đậm */
+    #00c6ff 100%,   /* xanh dương nhạt */
+    #00ff9d 117.04% /* quay lại xanh lá nhạt */
   );
 }
 
@@ -27,10 +27,10 @@
 .active {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #00ff9d 21.43%, /* xanh lá nhạt */
+    #0072ff 50.63%, /* xanh dương đậm */
+    #00c6ff 100%,   /* xanh dương nhạt */
+    #00ff9d 117.04% /* quay lại xanh lá nhạt */
   );
 }
 

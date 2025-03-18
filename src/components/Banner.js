@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/avatar.svg";
+import Image from "../assets/services.png";
 //icons
 import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
 //type animation
@@ -57,7 +57,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:ma-0"
             >
-              Lorem??
+               I'm a passionate developer who enjoys coding, exploring new
+               knowledge, and working across the full stack.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
